@@ -1,0 +1,8 @@
+:root { font-family: system-ui, Arial, sans-serif; }
+body { display: grid; place-items: center; min-height: 100dvh; margin: 0; }
+#game { width: min(90vw, 500px); padding: 24px; border-radius: 16px; box-shadow: 0 10px 20px rgba(0,0,0,.1); }
+h1 { margin-top: 0; }
+#problem { font-size: 1.8rem; margin: 12px 0; }
+#answer { padding: 10px; font-size: 1rem; width: 100%; box-sizing: border-box; }
+#submit { padding: 10px 14px; margin-top: 8px; cursor: pointer; }
+#feedback { min-height: 1.4em; }
